@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Single Page Blog</title>
+        <link type="text/css" rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div id="loading" style="color: red;">Loading...</div>
+        <br>
+        <div id="header" class="header">
+        </div>
+
+        <br>
+
+        <div id="display-post" style="color: green;">Select a post</div>
+        <div id="display-content">
+            <h1 id="titleContent">Title</h1>
+            <div class="content" id="content">Content</div>
+            <button id="deletePost">Delete</button>
+        </div>
+
+        <br>
+
+        <div id="add-post-container">
+            <h1>Add a Post</h1>
+            <h4>Title</h4>
+            <input type="text" size="60" id="addTitle">
+            <h4>Content</h4>
+            <textarea id="addContent" rows="6" cols="60"></textarea>
+            <h4>Author</h4>
+            <select id="author">
+            </select>
+            <button id="addPost">Add Post</button>
+            
+        </div>
+
+        <script src="script.js" type="text/javascript"></script>
+    </body>
+</html>
